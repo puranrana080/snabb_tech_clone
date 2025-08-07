@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "sf pro", Sans-serif
+}
+
+.nav-item a {
+  color: black;
+  font-weight: bold;
+}
+
+.nav-links button,
+#getInTouch {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 1px solid #70aa26;
+    color: white;
+    background-color: #70aa26;
+}
+
+/*Section two  */
+#two{
+    height:80vh;
+}
+
+#reviews {
+    padding: 80px 0;
+}
+
+.client-review {
+    margin: 20px 0;
+    width: 100%;
+
+}
+
+.client-review img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.blog-heading{
+    padding:60px 20px 40px 20px;
+    margin-bottom: 5px;
+}
+.blog-heading-title{
+    width:100%;
+    /* border:1px solid blue */
+
+}
+.all-post-btn {
+    margin-right:0px;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+
+.fixed-height-img {
+    height: 270px;
+    object-fit: cover;
+}
+
+
+
+.postButton {
+    background-color: #70aa26;
+    color: white;
+    padding: 5px 20px;
+    margin: 20px;
+    border: none;
+}
+
+
+
+.card-inner-text h5 {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 10px 0;
+}
+
+
+.img-box{
+
+    width:100%;
+    max-width: 150px;
+}
+
+.footer-img-box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img-box img {
+    height: auto;
+    object-fit: contain;
+    display: block;
+    max-width: 100%;
+
+
+}
+.media-app{
+    height:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#app-svg{
+    padding:5px;
+    height:50px;
+    border-radius: 50%;
+    background-color:#134872;
+    
+}
+#app-svg svg{
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+    object-fit: contain;
+}

@@ -1,0 +1,565 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "sf pro", Sans-serif
+}
+
+/* header */
+.nav-item a {
+    color: black;
+    font-weight: bold;
+}
+#getInTouch {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 1px solid #70aa26;
+    color: white;
+    background-color: #70aa26;
+}
+.highlighter {
+    color: #29c553;
+}
+
+/* section One */
+.firstSection {
+    min-height: 100vh;
+    background-image: url("../images/img1.png");
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+
+.sec1-text {
+    width: 40%;
+    height: auto;
+    padding: 20px 0;
+    margin: 60px;
+    word-wrap: break-word;
+}
+
+#sec1-heading {
+    padding: 20px 10px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #134872;
+}
+
+
+
+
+.sec1-desc {
+    margin-top: 30px;
+    font-size: x-large;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+/* Section Two */
+#secondSection {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.secondSec_leftContent {
+    flex: 1 1 300px;
+    font-size: 45px;
+    font-weight: 700;
+    /* margin: auto; */
+    margin-left: 50px;
+    line-height: 1.5;
+    color: #134872
+}
+
+.secondSec_rightContent {
+    flex: 1 1 300px;
+    padding: 10px 20px 10px 20px;
+    line-height: 1.5;
+}
+
+
+/* Third Section */
+#reviewcards {
+    background-color: #f2f2f2;
+}
+
+.review_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin: auto;
+    width: 70%;
+    padding: 40px;
+}
+
+.review_card {
+    flex: 1 1 250px;
+    max-width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+}
+
+.middle-card-inner {
+    display: flex;
+    gap: 10px
+}
+
+/* Section Four */
+
+
+.forthSec_cards {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 80px;
+    gap: 20px;
+    height: 50%;
+    flex-wrap: wrap;
+    /* width:100% */
+}
+
+.forthSec_card {
+    flex: 1 1 200px;
+    background-color: #134872;
+    padding: 40px 25px;
+    border-radius: 10px;
+    line-height: 1.5;
+    color: white
+}
+
+#forthSec_card h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#forthSec_card-para {
+    font-size: 18px;
+}
+
+#forthSec_text {
+    flex: 1 1 200px;
+    line-height: 2;
+    padding-left: 10vh;
+    padding-bottom: 10px;
+}
+
+#inner_text {
+    padding: 40px;
+    color: #134872;
+    margin: 10px
+}
+
+#inner_text h2 {
+    font-size: 30px;
+}
+
+#inner_text p {
+    color: black;
+    font-size: 18px;
+}
+
+/* fifth Section */
+#fifthSection {
+    height: 92vh;
+    background-color: #2a5429;
+    background-image: url("../images/coursel.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* sixSection */
+
+
+#sixSec_text {
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 20px;
+    line-height: 2;
+    font-size: 1.3em;
+}
+
+#sixSec_text span {
+    font-weight: 700;
+}
+
+#sixSec_text h1 {
+    color: #134872
+}
+
+#sixSec_cards {
+    height: 60%;
+    width: 80%;
+    margin: auto;
+}
+
+#sixSec_card-row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+    height: 50%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/* sixSec_card */
+#sixSec_card {
+    display: flex;
+    flex: 1 1 400px;
+    max-width: 100%;
+
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    background-size: auto;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+}
+
+#card-img {
+    width: 20%;
+    margin: 20px auto;
+    padding: 20px
+}
+
+#sixSec_card-text {
+    margin: 20px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+#sixSec_card-text button {
+    margin: 30px auto;
+}
+
+/* sevenSection */
+#sevenSection {
+    margin: 40px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#sevenSec_text,
+#sevenSec_img {
+    flex: 1 1 400px;
+    max-width: 100%;
+}
+
+#sevenSec_text h1 {
+    font-size: 45px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+#sevenSec_text p {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    word-wrap: wrap;
+}
+
+#sevenSec_text button {
+    /* padding: 10px 20px; */
+    font-size: 1rem;
+    border: 1px solid #70aa26;
+    color: white;
+    background-color: #70aa26;
+    margin-top: 20px;
+}
+
+#sevenSec_img {
+    height: 400px;
+    /* flex:1 1 400px; */
+    /* max-width: 100%; */
+    background-image: url("../images/image3.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/* EightSection */
+#eightSection {
+    display: flex;
+    background-color: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#eightSec_text {
+    flex: 1 1 500px;
+    max-width: 100%;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+#eightSec_text h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#eightSec_text p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#eightSec_img {
+    flex: 1 1 500px;
+    max-width: 100%;
+    height: 400px;
+    background-image: url("../images/image4.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#eightSec_para img {
+    margin-left: 30px;
+}
+
+.eightSec_para {
+    display: flex;
+    padding: 10px 10px;
+}
+
+/* nine Section */
+#nineSection {
+    text-align: center;
+}
+
+#nineSection h1 {
+    font-size: 45px;
+    padding: 35px
+}
+
+#nineSec_para {
+    font-size: 24px;
+}
+
+#nineSection_cards {
+
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    gap: 20px;
+    height: 50%;
+    flex-wrap: wrap;
+}
+
+#nineSection_card {
+    flex: 1 1 200px;
+    background-color: #134872;
+    /* border: 1px solid rgb(90, 90, 209); */
+    max-width: 100%;
+    padding: 40px 25px;
+    border-radius: 10px;
+    line-height: 1.5;
+    color: white;
+    text-align: left;
+}
+
+#nineSec_card-para {
+    font-size: 20px;
+}
+
+/* ten Section */
+#tenSection {
+    /* height: 100vh; */
+    background-color: #f2f2f2;
+}
+
+#tenSection_text {
+    text-align: center;
+    padding-top: 80px;
+    /* height: 20vh; */
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+#tenSection_text p {
+    font-size: 24px;
+}
+
+#tenSection_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px
+}
+
+#tenSection_card {
+    flex: 1 1 300px;
+    max-width: 100%;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#tenSection_card img {
+    margin-bottom: 10px;
+}
+
+#tenSection_card h2 {
+    margin: 0
+}
+
+/* Eleven Section */
+#eleSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border:1px solid yellow; */
+    gap: 10px
+}
+
+#eleSection_card {
+    flex: 1 1 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+#eleSection_card h1 {
+    font-size: 42px;
+    margin: 20px;
+    color: #134872
+}
+
+#eleSection_card p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+#eleSection_card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* Blog Section */
+.blog-heading {
+    padding: 60px 20px 40px 20px;
+    margin-bottom: 5px;
+}
+.blog-heading-title {
+    width: 100%;
+    /* border:1px solid blue */
+
+}
+.all-post-btn {
+    margin-right: 0px;
+    align-content: center;
+    align-items: center;
+}
+.fixed-height-img {
+    height: 270px;
+    object-fit: cover;
+}
+.postButton {
+    background-color: #70aa26;
+    color: white;
+    padding: 5px 20px;
+    margin: 20px;
+    border: none;
+}
+.card-inner-text h5 {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 10px 0;
+}
+
+/* Twelve Section */
+#twelveSection {
+    /* height: 50vh; */
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#twelveSection_card {
+    width: 24%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 40px;
+    max-width: 300px;
+    flex: 1 1 250px;
+    height: auto;
+
+}
+
+#socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+#icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #134872;
+}
+
+#icon img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#twelveSection_card h2 {
+    text-decoration: underline;
+    color: #134872
+}
+
+#list {
+    text-align: left;
+}
+
+#list p {
+    margin: 10px
+}
+
+/* copyright */
+#copyright {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}

@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "sf pro", Sans-serif
+}
+
+#highlighter{
+    color:#70aa26
+}
+.nav-item a {
+  color: black;
+  font-weight: bold;
+}
+
+#getInTouch {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 1px solid #70aa26;
+    color: white;
+    background-color: #70aa26;
+}
+
+/* about-us -section */
+#about-us {
+    /* margin-top: 70px; */
+    background-color: black;
+    color: white
+}
+
+#about-us_img {
+    height: 120px;
+    width: 100%;
+    background-image: url("https://snabbtech.com/wp-content/uploads/2024/05/Screenshot-2024-05-28-161324-e1716897024158.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.about-us-left {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 10px;
+
+}
+
+.about-us-left p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.about-us-btn button {
+    margin: 30px 0;
+    font-size: 14px;
+    padding: 10px 25px;
+    color: white;
+    background-color: #70aa26;
+    border: none;
+}
+
+.about-us-right {
+    margin: 100px auto;
+    width: 70%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.about-us-right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* section two */
+#wordSection {
+    background-color: #f2f2f2;
+    padding-top: 50px;
+}
+
+.word_firstPart {
+    display: flex;
+    flex-direction: column;
+    ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 150px;
+}
+
+/* Medium Text */
+
+.grid-img,
+.grid-img-medium,
+.grid-img-small {
+    background: #f8f9fa;
+    margin-bottom: 15px;
+
+}
+
+.grid-img {
+    height: 600px;
+}
+
+.grid-img-small {
+    height: 295px;
+}
+
+.grid-img-medium {
+    height: 295px;
+}
+
+.grid-img img,
+.grid-img-medium img,
+.grid-img-small img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* display:block; */
+    border-radius: 10px;
+}
+
+#story {
+    background-color: white;
+    /* padding:100px */
+    /* line-height: 1.5; */
+}
+
+.storySection {
+    display: flex;
+    flex-direction: column;
+    ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+}
+
+#mission {
+    background-color: #f2f2f2;
+    padding-top: 100px;
+}
+
+.ourMission-img,
+.ourTeam-img {
+    height: 500px;
+    width: 90%;
+    /* margin: 40px; */
+    /* padding: 20px; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ourMission-img img,
+.ourTeam-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.ourMission-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    align-content: center;
+
+}
+
+
+.ourTeam-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+
+
+#team {
+    background-color: #f2f2f2;
+    padding-top: 100px;
+}
+.ourTeam-left {
+    padding: 50px 20px;
+    margin: 40px 0;
+}
+
+/* partner */
+
+#partners {
+    padding-bottom: 100px;
+}
+
+#partner-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: 80px 0;
+ 
+}
+
+.partners-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 30px 20px 80px 20px;
+    text-align: center;
+    height: 100%;
+}
+
+.partners-card img {
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.partners-card h5 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* //ceo */
+
+ .ceorow {
+    background-color: black;
+    border-radius: 15px;
+}
+
+.ceoText {
+    margin: 80px 20px 0 0;
+    color: white
+}
+
+
+
+.ceoText h3 {
+    font-size: 29px;
+    line-height: 1.5;
+}
+
+.ceoImg {
+    position: relative;
+    height: 650px;
+    border-radius: 15px;
+    align-content: center;
+    align-items: center;
+  
+}
+
+.ceoImg img {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    top:-20px;
+    right:10px;
+}
+
+
+
+/* client Reviews */
+
+#reviews {
+    padding: 80px 0;
+}
+
+.client-review {
+    margin: 20px 0;
+    width: 100%;
+
+}
+
+.client-review img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.blog-heading{
+    padding:60px 20px 40px 20px;
+    margin-bottom: 5px;
+}
+.blog-heading-title{
+    width:100%;
+    /* border:1px solid blue */
+
+}
+.all-post-btn {
+    margin-right:0px;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+
+.fixed-height-img {
+    height: 270px;
+    object-fit: cover;
+}
+
+
+
+.postButton {
+    background-color: #70aa26;
+    color: white;
+    padding: 5px 20px;
+    margin: 20px;
+    border: none;
+}
+
+
+
+.card-inner-text h5 {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 10px 0;
+}
+
+
+.img-box{
+
+    width:100%;
+    max-width: 150px;
+}
+
+.footer-img-box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img-box img {
+    height: auto;
+    object-fit: contain;
+    display: block;
+    max-width: 100%;
+
+
+}
+.media-app{
+    height:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#app-svg{
+    padding:5px;
+    height:50px;
+    border-radius: 50%;
+    background-color:#134872;
+    
+}
+#app-svg svg{
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
