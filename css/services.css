@@ -29,15 +29,18 @@
 .bigHeadings {
     font-size: 50px;
     font-weight: 600;
-    /* color:#134872 */
-    ;
     word-wrap: wrap;
 }
 
 .medium-size-text {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 16px;
+}
+.small-para{
+    font-size: 18px;
+   line-height: 1.5;
+
 }
 
 
@@ -110,6 +113,37 @@ align-items: center;
     top:0;
     align-self: flex-start;
 }
+
+
+/* Section five */
+.app-dev{
+    /* min-height: 600px; */
+    border-radius: 10px;
+    padding:40px 15px;
+    border-color: 10px solid black;
+}
+.app-dev-img{
+height:200px;
+display:flex;
+justify-content: center;
+align-items: center;
+    object-fit: contain;
+    width:100%
+}
+.app-dev-img img{
+    height:100%;
+    width:auto;
+    
+    object-fit: contain;
+}
+.app-dev-text{
+    margin:40px 0;
+}
+
+.app-dev p,.app-dev h5{
+    color:white
+}
+
 
 
 
