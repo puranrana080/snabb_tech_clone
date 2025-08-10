@@ -116,7 +116,6 @@ align-items: center;
 
 /* Section five */
 .app-dev{
-    /* min-height: 600px; */
     border-radius: 10px;
     padding:40px 15px;
     border-color: 10px solid black;
@@ -141,8 +140,8 @@ align-items: center;
     color:white
 }
 
-/* Section SIx */
 
+/* Section SIx */
 .tail-dev{
     border-radius: 10px;
     padding:20px 15px;
@@ -169,6 +168,56 @@ justify-content: center;
 align-items: center;
 }
 
+
+
+/* section seven */
+.features-heading h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.features-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 30px 20px 80px 20px;
+    text-align: center;
+    height: 90%;
+     border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.features-card img {
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.features-card h5 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+/* section Eight */
+.why-us-heading h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.why-us-card {
+    background: #eef4f2;
+    border-radius: 10px;
+    padding: 30px 20px 80px 20px;
+    text-align: center;
+    height: 90%;
+}
+
+.why-us-card img {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.why-us-card h5 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
 
 
 
