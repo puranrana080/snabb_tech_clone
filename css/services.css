@@ -105,13 +105,12 @@ align-items: center;
     
     object-fit: contain;
 }
-.web-app-dev-text{
-    margin:40px 0;
-}
+
 .sticky-left{
     position:sticky;
     top:0;
     align-self: flex-start;
+    background-color: white;
 }
 
 
@@ -136,13 +135,42 @@ align-items: center;
     
     object-fit: contain;
 }
-.app-dev-text{
-    margin:40px 0;
-}
+
 
 .app-dev p,.app-dev h5{
     color:white
 }
+
+/* Section SIx */
+
+.tail-dev{
+    border-radius: 10px;
+    padding:20px 15px;
+    border-color: 10px solid black;
+}
+.tail-dev-img{
+height:200px;
+display:flex;
+justify-content: center;
+align-items: center;
+    object-fit: contain;
+    width:100%
+}
+.tail-dev-img img{
+    height:100%;
+    width:auto;
+    
+    object-fit: contain;
+}
+
+.tail-dev-icon-list-icon{
+    display:flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
 
 
 
