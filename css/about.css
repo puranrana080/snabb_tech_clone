@@ -4,12 +4,13 @@
     font-family: "sf pro", Sans-serif
 }
 
-#highlighter{
-    color:#70aa26
+#highlighter {
+    color: #70aa26
 }
+
 .nav-item a {
-  color: black;
-  font-weight: bold;
+    color: black;
+    font-weight: bold;
 }
 
 #getInTouch {
@@ -135,6 +136,7 @@
     padding: 60px;
 }
 
+/* mission */
 #mission {
     background-color: #f2f2f2;
     padding-top: 100px;
@@ -149,7 +151,6 @@
     border-radius: 10px;
     overflow: hidden;
 }
-
 .ourMission-img img,
 .ourTeam-img img {
     height: 100%;
@@ -163,18 +164,14 @@
     flex-direction: column;
     margin-top: 80px;
     align-content: center;
-
 }
 
-
+/* Team */
 .ourTeam-left {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
 }
-
-
-
 #team {
     background-color: #f2f2f2;
     padding-top: 100px;
@@ -185,20 +182,17 @@
 }
 
 /* partner */
-
 #partners {
     padding-bottom: 100px;
 }
-
 #partner-heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 60%;
     margin: 80px 0;
- 
-}
 
+}
 .partners-card {
     background: #f8f9fa;
     border-radius: 10px;
@@ -206,20 +200,17 @@
     text-align: center;
     height: 100%;
 }
-
 .partners-card img {
     height: 80px;
     margin-bottom: 15px;
 }
-
 .partners-card h5 {
     font-weight: 600;
     font-size: 1.2rem;
 }
 
 /* //ceo */
-
- .ceorow {
+.ceorow {
     background-color: black;
     border-radius: 15px;
 }
@@ -228,78 +219,63 @@
     margin: 80px 20px 0 0;
     color: white
 }
-
-
-
 .ceoText h3 {
     font-size: 29px;
     line-height: 1.5;
 }
-
 .ceoImg {
     position: relative;
     height: 650px;
     border-radius: 15px;
     align-content: center;
     align-items: center;
-  
 }
-
 .ceoImg img {
-    position:absolute;
+    position: absolute;
     height: 100%;
     width: 100%;
     border-radius: 10px;
-    top:-20px;
-    right:10px;
+    top: -20px;
+    right: 10px;
 }
 
 
 
 /* client Reviews */
-
 #reviews {
     padding: 80px 0;
 }
-
 .client-review {
     margin: 20px 0;
     width: 100%;
-
 }
-
 .client-review img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-
 }
 
-.blog-heading{
-    padding:60px 20px 40px 20px;
+
+/* Blog Section */
+.blog-heading {
+    padding: 60px 20px 40px 20px;
     margin-bottom: 5px;
 }
-.blog-heading-title{
-    width:100%;
-    /* border:1px solid blue */
+
+.blog-heading-title {
+    width: 100%;
 
 }
 .all-post-btn {
-    margin-right:0px;
+    margin-right: 0px;
     align-content: center;
     align-items: center;
 
 }
-
-
-
 .fixed-height-img {
     height: 270px;
     object-fit: cover;
 }
-
-
-
 .postButton {
     background-color: #70aa26;
     color: white;
@@ -307,57 +283,57 @@
     margin: 20px;
     border: none;
 }
-
-
-
 .card-inner-text h5 {
     font-size: 21px;
     font-weight: 600;
     font-family: sans-serif;
     padding: 10px 0;
 }
-
-
-.img-box{
-
-    width:100%;
-    max-width: 150px;
-}
-
-.footer-img-box {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
 .img-box img {
     height: auto;
     object-fit: contain;
     display: block;
     max-width: 100%;
-
-
 }
-.media-app{
-    height:10px;
-    display:flex;
+
+
+/* Footer Section */
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+}
+.footer-img img {
+    max-height: 200px;
+    object-fit: contain;
+}
+.social-apps {
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
-#app-svg{
-    padding:5px;
-    height:50px;
+.app-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #134872;
     border-radius: 50%;
-    background-color:#134872;
-    
+    margin: 5px;
+    /* vertical-align: middle; */
 }
-#app-svg svg{
-    height:100%;
-    width:100%;
-    border-radius: 50%;
-    object-fit: contain;
+.app-icon svg {
+    display:block;
+    height: 60%;
+    width: 60%;
+}
+.foot-sec-heading{
+    font-size: 22px;
+    font-weight: 600;
+}
+.foot-sec-list li{
+list-style-type:none;
+line-height: 2;
+
 }
